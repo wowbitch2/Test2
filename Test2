@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The little taco shop</title>
+    <link rel="icon" href="images/tacoIcon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the little taco shop</h1>
+    </header>
+        <nav>
+            <ul>
+                <li> <a href="#information">About LTS</a></li>
+                <li> <a href="#menu">Our Menu</a></li>
+                <li> <a href="hours.html">Store hours</a></li>
+                <li> <a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    <figure class="photo">
+        <img src="images/taco.jpg" alt="a taco with drinls" width="400px" height="260px">
+        <figcaption>A deliciuos Taco on a beautiful day</figcaption>
+    </figure>
+</div>
+    <br>
+    <hr>
+<main class="container">
+    <article>
+        <h2 id="informatio">About <abbr title="Little Taco Shop">LTS</abbr></h2>
+        <p><abbr title="Little Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time> Our shop was built from a <strong>Love of tacos</strong> 🌮🌮🌮. </p>
+        <p>We hope our shop adds a unique and interesting place to our town</p>
+
+        <aside>
+            <h3>Taco Triva</h3>
+            <details>
+                <summary>
+                    A breif history of how taco came to Ethiopia
+                </summary>
+                <p>For Victor Trevino, the ambassador of Mexico, there is much to be excited about with his assignment in Ethiopia.
+                    From promoting a deeper diplomatic relationship between his nation and Ethiopia, to his fascination of Ethiopian athletes and local coffee delicacy, his travels throughout the nation – his friendly gesture where many people simply address him by his first name for his easy to get along gesture, his time in the nation has been marked with adventure as well as real advancement of cultural diplomacy between the two nations.
+                    “Mexico can humbly share its experience in Tourism with Ethiopia”, he told The Reporter. “With all the heritage sites and the best airline in Africa (Ethiopian), Ethiopia deserves to be in the top five visited countries in the continent.
+                    To him, such a place worth a visit is the Siemen Mountain National Park, which he visited last weekend with his family.
+                    <quote> “I visited the Simien Mountains with my family. Amazing experience to be in this World Heritage Site <abbr title="United Nations Educational, Scientific and Cultural Organization">(UNESCO)</abbr>, close to the Gelada “baboom & Walia ibex species found only in the Ethiopian Highlands”</quote>, he reflected.
+                    He has been in Ethiopia for almost half a decade now and has seen the diplomatic relationship that is more than 70 years old move forward.  His nation was one of the few to speak out against the occupation of Ethiopia by Italy and soon after, both nations exchanged diplomats and established embassies until the beginning of the end of the Derg regime in 1989.
+                    That was when the two nations decided to create a diplomatic relationship where they created a consultation mechanism on matters of common interest to further advance the political dialogue.
+                    <quote> “The last meeting of the consultation mechanism was held in October of last year in Addis Ababa, when our Deputy Secretary of Foreign Affairs, Ambassador Julian Ventura, visited Ethiopia to co-chair”</quote>, he said.
+                    In his time in Ethiopia, he has seen a new and successful Mexican restaurant open up, offering many the delicacy of his North American nation where taco is served with drinks imported from there and Ethiopian airlines started a cargo service improving the bilateral relationship.
+                    He remarked that one of the most important and busy squares – Mexico Square – dedicated to his nation in Addis Ababa for its support against the invasion of Italy, reminds him of the importance of the relationship. In return, his nation has named a rail station in Mexico City as Metro Etiopia station.  </p>
+            </details>
+        </aside>>
+        <br>
+        <hr>
+    </article>
+
+    <article>
+        <h2 id="menu">Our Menu</h2>
+        <div class="menuTable">
+        <table >
+            <caption>Our tacos</caption>
+            <thead>
+                <tr>
+                    <th>Tacos</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row" rowspan="3">Crunchy</th>
+                        <td>2</td>
+                        <td>250</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>350</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <th scope="row" rowspan="3">Soft</th>
+                        <td>1</td>
+                        <td>150</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>300</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>450</td>
+                </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Taco &amp Chips 100</td>
+                    </tr>
+                </tfoot>
+            </tbody>
+
+        </table>
+    </div>
+    </article>
+</main>
+<br>
+<a style="margin-left: 900px;" href="#">Back to Top</a>
+<hr>
+<br>
+<footer>copyright &copy;Muktar</footer>
+</body>
+</html>
